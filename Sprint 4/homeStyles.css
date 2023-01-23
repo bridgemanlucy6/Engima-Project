@@ -3,15 +3,6 @@ body{
     height: 2500px;
     margin: 0;
 }
-.slideImage {
-    background-color: aqua;
-    position: absolute;
-    top: 250px;
-    left: 0px;
-    height: 350px;
-    width: 100%;
-    margin: 0;
-}
 .introduction {
     background-color: coral;
     position: absolute;
