@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+    <title> Home </title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="interactive.js"></script>
+
+</head>
+
+<body>
+
+    <h1> The Enigma Machine </h1>
+
+
+    <div class="menuBar">
+
+        <div class="grid-item"> 
+          <a class="active" href="home.html">Home</a>
+        </div>
+
+        <div class="grid-item"> 
+          <a href="enigma.html">Try it yourself</a>
+        </div>
+
+        <div class="grid-item"> 
+          <a href="miniEnigma.html">Mini-Enigma</a>
+        </div>
+
+        <div class="grid-item"> 
+          <a href="info.html">Information</a>
+        </div>
+        
+    </div>
+    
+
+    <div class="slideshow-container">
+
+      <div class="mySlides fade">
+        <div class="numbertext">1 / 3</div>
+        <img src="num3image.jpg" alt="EnigmaImage" width="100%" height="400px">
+        <div class="textHeader">
+          <p>Did you know?</p>
+        </div>
+        <div class="text">
+          <p>There are known to be about 300 Enigma machines left in museums and private collections around the world, although the exact number of surviving Enigma machines is unknown, and it's suspected that there are a few more 'hiding'.</p>
+        </div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">2 / 3</div>
+        <img src="num2image.jpg" alt="EnigmaImage" width="100%" height="400px">
+        <div class="textHeader">
+          <p>Did you know?</p>
+        </div>
+        <div class="text">
+          <p>Turing created a huge machine called the 'Bombe' which managed to crack the enigma code within 20 minutes, he used the work of the Polish mathematicians to help create this massive machine.</p>
+        </div>
+      </div>
+      
+      <div class="mySlides fade">
+        <div class="numbertext">3 / 3</div>
+        <img src="num1image.jpg" alt="EnigmaImage" width="100%" height="400px">
+        <div class="textHeader">
+          <p>Did you know?</p>
+        </div>
+        <div class="text">
+          <p>The first 'Enigma' was invented by German engineer Arthur Scherbius in 1918, who sought to sell it for commercial, rather than military, purposes.</p>
+        </div>
+      </div>
+      
+      <a class="prev" onclick="plusSlides(-1)">❮</a>
+      <a class="next" onclick="plusSlides(1)">❯</a>
+      
+    </div>
+
+    <br>
+      
+    <div style="text-align:center">
+
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+
+    </div>
+      
+
+
+    <div class="introduction">
+
+      <div id="introImage">
+        <img src="homepage1img.jpg" alt="EnigmaImage" width="100%" height="400px">
+      </div>
+
+      <h2> What is the Enigma Machine?</h2>
+
+      <br>
+
+      <p id="textIntro"> 
+        The Enigma machine was a field unit used in World War II by German field agents to encrypt and decrypt messages and communications. Similar to the Feistel function of the 1970s, the Enigma machine was one of the first mechanized methods of encrypting text using an iterative cipher. It employed a series of rotors that, with some electricity, a light bulb, and a reflector, allowed the operator to either encrypt or decrypt a message. The original position of the rotors, set with each encryption and based on a prearranged pattern that in turn was based on the calendar, allowed the machine to be used even if it was compromised.
+        <br>
+        When the Enigma was in use, with each subsequent key press, the rotors would change in alignment from their set positions in such a way that a different letter was produced each time. With a message in hand, the operator would enter each character into the machine by pressing a typewriter-like key. The rotors would align and a letter would then illuminate, telling the operator what the letter really was. Likewise, when enciphering, the operator would press the key and the illuminated letter would be the cipher text. The continually changing internal flow of electricity that caused the rotors to change was not random, but it created a polyalphabetic cipher that could be different each time it was used.
+      </p>
+
+    </div>
+</body>
+
+</html>

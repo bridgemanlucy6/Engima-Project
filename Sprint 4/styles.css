@@ -1,157 +1,20 @@
 h1 {
-    /*positioning*/
+    background-color:mediumvioletred;
     position: fixed;
-    margin: 0;
-    top: 0;
-    right: 0;
-    padding-top: 30px;
-    height: 120px;
-    width: 100%;
-    background-color: #008080;
-    /*text*/
-    font-size: 350%;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    color: white;
-}
-
-
-body{background-color: #000000;}
-
-
-.menuBar {
-    /*positioning*/
-    position: fixed;
-    margin: 0;
-    top: 120px;
-    right: 0;
-    width: 100%;
-    overflow: hidden;
-    background-color: #008080;
-}
-.menuBar a {
-    /* Style the links inside the navigation bar */
-    float: left;
-    color: white;
-    text-align: center;
-    padding: 14px 132px;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-decoration: none;
-}
-.menuBar a:hover {
-    /* Change the color of links on hover */
-    background-color: #ddd;
-    color: black;
-}
-.menuBar a.active {
-    /* Add a color to the active/current link */
-    background-color: #000000;
-    color: white;
-}
-
-
-* {box-sizing: border-box}
-.mySlides {display: none}
-body {font-family: Verdana, sans-serif; margin:0}
-img {vertical-align: middle;}
-
-.slideshow-container {
-    /* Slideshow container */
-    max-width: 100%;
-    height: 400px;
-    position: relative;
-    top: 170px;
+    top: 0px;
     left: 0px;
-    margin: none;
-}
-.prev, .next {
-    /* Next & previous buttons */
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
-}
-.next {
-    /* Position the "next button" to the right */
-    right: 0;
-    border-radius: 3px 0 0 3px;
-}
-.prev:hover, .next:hover {
-    /* On hover, add a black background color with a little bit see-through */
-    background-color: rgba(0,0,0,0.8);
-}
-.text {
-    /* Caption text */
-    background-color: #000000;
-    opacity: 75%;
-    font-size: 15px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 8px 12px;
-    position: absolute;
-    bottom: 50px;
+    height: 150px;
     width: 100%;
-    text-align: center;
-    color: aliceblue;
+    margin: 0;
+    z-index: 5;
 }
-.textHeader {
-    padding: 0px 0px;
-    position: absolute;
-    left: 37.5%;
-    top: 20px;
-    width: 25%;
-    height: 20%;
-}
-.textHeader p {
-    color: #f2f2f2;
-    font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    position: absolute;
-    margin-bottom: 15px;
-    bottom: 0px;
-    left: 55px;
-    opacity: 1;
-}
-.numbertext {
-    /* Number text (1/3 etc) */
-    color: #f2f2f2;
-    font-size: 12px;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-}
-.dot {
-    /* The dots/bullets/indicators */
-    cursor: pointer;
-    height: 15px;
-    width: 15px;
-    margin: 5px;
-    position: relative;
-    top: 110px;
-    border-bottom: 0px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-}
-.active, .dot:hover {
-  background-color: #717171;
-}
-.fade {
-    /* Fading animation */
-    animation-name: fade;
-    animation-duration: 1.5s;
-}
-@keyframes fade {
-    from {opacity: .4} 
-    to {opacity: 1}
+.menuBar {
+    background-color: darkred;
+    position: fixed;
+    top: 150px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    z-index: 5;
 }

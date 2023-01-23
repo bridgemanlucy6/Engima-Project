@@ -1,0 +1,41 @@
+body{
+    background-color:#008000;
+    height: 2500px;
+    margin: 0;
+}
+.slideImage {
+    background-color: aqua;
+    position: absolute;
+    top: 250px;
+    left: 0px;
+    height: 350px;
+    width: 100%;
+    margin: 0;
+}
+.introduction {
+    background-color: coral;
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    height: 400px;
+    width: 100%;
+    margin: 0;
+}
+.timeline {
+    background-color: darkslateblue;
+    position: absolute;
+    top: 1000px;
+    left: 0px;
+    height: 1400px;
+    width: 100%;
+    margin: 0;
+}
+.bottomBar {
+    background-color: maroon;
+    position: absolute;
+    top: 2400px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+}
