@@ -1,32 +1,67 @@
 body{
-    background-color:#008000;
-    height: 2500px;
+    background-color: black;
+    height: 3150px;
     margin: 0;
+    font-family: "Lucida Sans Typewriter";
 }
 .introduction {
-    background-color: coral;
+    background-color: black;
     position: absolute;
-    top: 600px;
+    top: 225px;
     left: 0px;
-    height: 400px;
+    height: 425px;
+    width: 100%;
+    margin: 0;
+    padding: 40px 50px
+}
+.homeImage {
+    background-color: black;
+    position: absolute;
+    top: 650px;
+    left: 0px;
+    height: 350px;
     width: 100%;
     margin: 0;
 }
-.timeline {
-    background-color: darkslateblue;
+.tHead {
+    background-color: greenyellow;
     position: absolute;
     top: 1000px;
     left: 0px;
-    height: 1400px;
     width: 100%;
-    margin: 0;
+    height: 100px;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 40px;
+    color: azure;
+    background-color: #873e23;
+}
+.timeline {
+    background-color: black;
+    padding-top: 20px;
+    position: absolute;
+    top: 1100px;
+    left: 0px;
+    width: 100%;
 }
 .bottomBar {
     background-color: maroon;
     position: absolute;
-    top: 2400px;
+    top: 3025px;
     left: 0px;
-    height: 100px;
+    height: 125px;
     width: 100%;
     margin: 0;
+}
+#introText {
+    background-color: black;
+    position: relative;
+    top: 0px;
+    color: azure;
+    text-align: center;
+    float: right;
+    width: 75%;
+    font-family: "Lucida Sans Typewriter";
+    font-size: 15px;
+    padding-right: 10px;
 }
