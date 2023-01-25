@@ -5,7 +5,9 @@
 <head>
 
     <title> Information </title>
+
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="infoStyles.css">
     <script src="interactive.js"></script>
 
 </head>
@@ -14,12 +16,167 @@
 
     <h1> The Enigma Machine </h1>
 
-    <div class="menuBar">
+    <div class = "menuBar">
         <a href="home.html">Home</a>
-        <a href="enigma.html">Try it yourself</a>
+        <a href="enigma.html">Try it Yourself</a>
         <a href="miniEnigma.html">Mini-Enigma</a>
         <a class="active" href="info.html">Information</a>
-      </div>
+    </div>
+
+    <div id = "infoTitles">
+        How the Enigma Machine Works
+    </div>
+
+    <div class = "enigmaWorkings"> 
+
+        <div id = "machineImages">
+            <br>
+            <br>
+            <img src="enigKeyboard.jpg" alt="Enigma Image" width = "100%">
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="enigPlugboard.jpg" alt="Enigma Image" width = "100%">
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="enigRotors.jpg" alt="Enigma Image" width = "100%">
+            <br>
+            <br>
+            <br>
+            <br>
+            <img src="enigReflector.jpg" alt="Enigma Image" width = "100%"> 
+        </div>
+
+        <div id = "textSide">
+            <ol id = "listText">
+                <br>
+                <br>
+                <li> User enters message on a standard keyboard, letters are then passed through the plugboard. If the letter is physically wired to another it will change it to the corresponding letter. </li>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <li> The next stop is the static rotor, which doesn't do anything to the signal, but it does turn the wires into contacts, since the signal can only pass when the contacts touch. The output of the static rotor acts as the input to the moving rotors. This is where most of the scrambling takes place. </li>
+                <br>
+                <br>
+                <br>
+                <li> There are three rotors; fast (right), middle and slow (left). All of these rotors have a gauge that displays numbers from 1 to 26. The electric signal first passes through the fast rotor, then through the middle rotor, and finally comes out through the last (the slowest rotor). When a letter is pressed the fast rotor rotates one notch, changing the number in the gauge next to it. After one revolution of the fast rotor is complete, it triggers one notch rotation of the middle rotor. </li>
+                <br>
+                <br>
+                <br>
+                <li> After the signal comes out as an output from the slow rotor (left rotor), it goes through the reflector. It takes a letter as an input and reflects a different letter as an output. This output traces the same journey backwards through the machine, until it ends in the lampboard, where it lights up a light bulb under one of the 26 letters. </li>
+            </ol>                                   
+        </div>
+    </div>
+
+    <div id = "flawTitles">
+        The Original Flaw
+    </div>
+
+    <div id = "originalFlaw"> 
+        <p> The primary flaw in the Enigma is that no letter can map to itself after being encrypted. For example, the letter ‘A’ cannot appear in the cipher code as ‘A’. Every day in the morning the Germans would send the weather report through the Enigma machine, which was an opportunity for the opposition to crack the famous device. In that weather report, it could be predicted that it will have known phrases related to the report. So, the phrase prediction was the another flaw like “Wetterbericht”, which means weather report in German, or “Heil Hitler” at the end of each message. Alan Turing uses these two flaws to break the Enigma machine by building a massive machine called the Bombe machine, taking takes 20 minutes to break a coded message. </p>
+    </div>
+
+    <div id = "bombeTitle">
+        The British Bombe
+    </div>
+
+    <div id = "theBombe">
+        <p> The Bombe machine was an electro-mechanical device used to break Enigma-enciphered messages about enemy military operations during the Second World War. The first Bombe - Victory - started code-breaking on Bletchley Park on 14 March 1940 and by the end of the war almost 1676 female WRNS and 263 male RAF personnel were involved in the deployment of 211 Bombe machines. </p>
+        <br>
+        <p> It was the task of the Bombe to discover the daily key - wheel order, wheel settings and plugboard configuration - to enable the 3-5,000 Enigma messages intercepted each day to be deciphered. Some keys would be broken within 2-4 hours, some would never be broken – speed was always of the essence. </p>
+        <br>
+        <p> Prior to the war, in the 1920s, three Polish mathematicians were the first to break the Enigma cipher. Using a Bomba machine in 1938, they supplied valuable pre-war information from the simpler Enigma cipher techniques then being used. </p>
+        <br>
+        <img src="bombeImg.jpg" alt="Enigma Image" width = "25%">
+    </div>
+
+    <div id = "modelsTitle">
+        Enigma Models
+    </div>
+
+    <div class = "enigmaModels">
+        
+        <div id = "topText"> 
+            <p> Until the end of World War II, many types of Enigma encryption machines were created. These machines can be divided into two main families: printing Enigma and Enigma with a panel of lamps. </p>
+        </div>
+
+        <div class = "modelsBox">
+            <img src="model1Img.png" alt="Enigma Image" width = "20%">
+            <div class = "modelsTextOdd">
+                <h7> Die Handelsmaschine </h7>
+                <p> Die Handelsmaschine (Model A) is the very first cipher machine sold under the Enigma brand. It was developed by the company Scherbius & Ritter of Berlin-Wannsee (Germany). </p>
+                <br>
+                <p> Enigma A was a very heavy and bulky machine that could print its output directly onto paper. It is therefore sometimes called a Schreibende Enigma (Printing Enigma). The cryptographer would set the rotors to the correct position and then started to encrypt or decrypt (after switching mode). It was also possible to write without encryption - like on a standard typewriter. The machine had four cipher wheels with 28 electrical contacts at either side, and a cog-wheel driven stepping mechanism. Each cog-wheel had a different number of teeth in order to guarantee a long cipher period and irregular stepping. </p>
+            </div>
+        </div>
+
+        <div class = "modelsBox">
+            <img src="model2Img.png" alt="Enigma Image" width = "20%">
+            <div class = "modelsTextEven">
+                <h7> Die schreibende Enigma </h7>
+                <p> The next version of the Enigma that removed numerous mechanical and production defects of the original have been removed. The machine printed the entered message on sheets of paper. </p>
+                <br>
+                <p> It was a nicely finished machine, featuring a rather large keyboard with the standard alphabet (A-Z), numbers (0-9) and punctuation marks.The machine looked like a standard typewriter with a large extension on the right. Die schreibende Enigma was very heavy and was therefore generally installed on a sturdy table or a supporting metal frame. </p>
+            </div>
+        </div>
+
+        <div class = "modelsBox">
+            <img src="model3Img.png" alt="Enigma Image" width = "20%">
+            <div class = "modelsTextOdd">
+                <h7> Enigma H29 </h7>
+                <p> The Enigma H29 was the last model in the Schreibende Enigma (printing Enigma) machines range. It was introduced in 1929 as the successor to the schreibende Enigma of 1926 and was mainly used by the German Wehrmacht where the machine was known as Enigma II. </p>
+                <br>
+                <p> Some machines were sold to foreign customers such as Hungary, where it was used by the Army. The machine had 8 cipher wheels, but only 4 of these were used for the actual coding of the electric signals. The other 4 wheels were used to control the wheel turnovers. Each wheel had 26 contact points (A-Z) and the machine was capable of encrypting both letters and numbers. </p>
+            </div>
+        </div>
+
+        <div class = "modelsBox">
+            <img src="model4Img.png" alt="Enigma Image" width = "20%">
+            <div class = "modelsTextEven">
+                <h7> Enigma A, B, C, D, A26 </h7>
+                <p> The second branch of Enigma encryption machines were devices called Glühlampenmaschine. These Enigmas were produced from 1924, equipped with a lamp panel that served as a ciphertext display (replacing the ciphertext printing function). </p>
+                <br>
+                <p> As a result, it was much smaller, and therefore more mobile than the "printing Enigma" introduced a year earlier. It was also much cheaper - its price being 1000 DM, which was only 1/8 the price of the second type of Enigma. The three coding wheels were now installed on a removable spindle, so that the order of the wheels could be changed as well. Furthermore, the reflector (UKW) became settable, meaning that it could be set to any of 26 positions. All of this increased the maximum number of permutations. </p>
+            </div>
+        </div>
+
+        <div class = "modelsBox">
+            <img src="model5Img.png" alt="Enigma Image" width = "15%">
+            <div class = "modelsTextOdd">
+                <h7> Enigma I and models M3 (M1 and M2) </h7>
+                <p> Enigma I (Roman number 1) was an electromechanical cipher machine developed in 1927 for the German Reichswehr. It was based on the chassis of the commercial Enigma D, but had a fixed reflector and a plugboard at the front. </p>
+                <br>
+                <p> The latter was a unique feature for the German Armed Forces. The machine was used throughout WWII. Initially, the machine was supplied with three coding wheels, that could be inserted in any of 6 possible orders (3 x 2 x 1). In December 1938, two additional wheels were added, bringing the total number of possible wheel orders to 60 (5 x 4 x 3), a 10-fold increase in cipher security! The Enigma I was used by both the Heer (Army) and the Luftwaffe (Air Force). It was later also adopted by the Kriegsmarine (German Navy) where it became known as the M1, M2 and finally the M3. </p>
+            </div>
+        </div>
+
+        <div class = "modelsBox">
+            <img src="model6Img.png" alt="Enigma Image" width = "20%">
+            <div class = "modelsTextEven">
+                <h7> Enigma M4 </h7>
+                <p> The Enigma M4 was an electromechanical cipher machine, developed during WWII, exclusively for the U-Boot division of the Kriegsmarine. It was intended as the successor to the Enigma M3, which in turn was based on the standard German Army Enigma I. </p>
+                <br>
+                <p> The Enigma M4 played a vital role in the Battle of the Atlantic and was introduced unexpectedly on 2 February 1942. It caused great upset amongst the allied codebreakers at Bletchley Park (BP), who codenamed it SHARK. It remained unbroken for 9 months until new codebooks were captured. It has three moving code wheels, a fixed reflector (UKW). It was supplied with 8 different coding wheels, (marked I to VIII), three of which were in the machine at any given time. Besides the 3 extra wheels to choose from, an extra wheel (Zusatzwalze) was added to the M4, to the left of the 3 'normal' wheels. This extra wheel forms an additional stage in the ciphering process. </p>
+            </div>
+        </div>
+
+        <div class = "modelsBox">
+            <img src="model7Img.png" alt="Enigma Image" width = "15%">
+            <div class = "modelsTextOdd">
+                <h7> Enigma Z </h7>
+                <p> On the basis of standard models of Enigma, in smaller quantities, modifications such as Enigma Z were created, which encrypted numbers only (sold to Sweden) and Railway Enigma. </p>
+                <br>
+                <p> During the war a number of additional elements were also introduced, such as: the Uhr device that replaced the patch cables on the plug board, a small printer that could be attached to an Enigma machine instead of the light bulbs, or an additional board which allowed the lamps to be observed in  </p>
+            </div>
+        </div>
+
+    </div>
+    <div class = "modernEncryption"> </div>
 
 </body>
 

@@ -1,0 +1,199 @@
+body {
+    background-color: aqua;
+    font-family: "Lucida Sans Typewriter";
+}
+#infoTitles {
+    background-color: #873e23;
+    border-style: solid;
+    border-color: aliceblue;
+    position: absolute;
+    top: 225px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+.enigmaWorkings {
+    background-color: black;
+    position: absolute;
+    top: 325px;
+    left: 0px;
+    height: 975px;
+    width: 100%;
+    margin: 0;
+}
+#machineImages {
+    background-color: black;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 15%;
+    float: left;
+    margin: 0;
+    padding-left: 100px;
+    padding-top: 10px;
+}
+#textSide {
+    background-color: black;
+    position: relative;
+    height: 100%;
+    width: 60%;
+    margin: 0;
+    float: right;
+    padding: 30px 100px;
+}
+#listText {
+    font-size: 20px;
+    list-style-type: upper-roman;
+    text-align: left;
+    color: aliceblue;
+}
+#originalFlaw {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 30px;
+    position: absolute;
+    top: 1400px;
+    left: 0px;
+    height: 300px;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+#theBombe {
+    background-color: black;
+    box-sizing: border-box;
+    padding: 30px;
+    position: absolute;
+    top: 1775px;
+    left: 0px;
+    height: 825px;
+    width: 100%;
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+    color: aliceblue;
+}
+.enigmaModels {
+    background-color: orangered;
+    position: absolute;
+    top: 2700px;
+    left: 0px;
+    height: 2100px;
+    width: 100%;
+    margin: 0;
+    box-sizing: border-box;
+}
+.modernEncryption {
+    background-color: orchid;
+    position: absolute;
+    top: 5700px;
+    left: 0px;
+    height: 500px;
+    width: 100%;
+    margin: 0;
+}
+#flawTitles {
+    background-color: #873e23;
+    border-style: solid;
+    border-color: aliceblue;
+    position: absolute;
+    top: 1300px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+#bombeTitle {
+    background-color: #873e23;
+    border-style: solid;
+    border-color: aliceblue;
+    position: absolute;
+    top: 1675px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+#modelsTitle {
+    background-color: #873e23;
+    border-style: solid;
+    border-color: aliceblue;
+    position: absolute;
+    top: 2600px;
+    left: 0px;
+    height: 100px;
+    width: 100%;
+    margin: 0;
+    color: aliceblue;
+    text-align: center;
+    font-size: 32px;
+    padding-top: 30px;
+    box-sizing: border-box;
+}
+#topText {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 100%;
+    background-color: black;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+.modelsBox {
+    position: relative;
+    text-align: center;
+    color: aliceblue;
+    border-style: solid;
+    border-color: aliceblue;
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.modelsTextOdd {
+    position: relative;
+    float: right;
+    text-align: center;
+    color: aliceblue;
+    width: 75%;
+    background-color: black;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 100%;
+}
+.modelsTextEven {
+    position: relative;
+    float: left;
+    text-align: center;
+    color: aliceblue;
+    width: 75%;
+    background-color: black;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 100%;
+}
+h7 {
+    font-size: 27px;
+}
